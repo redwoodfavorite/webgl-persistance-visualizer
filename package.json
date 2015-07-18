@@ -1,0 +1,16 @@
+{
+  "name": "judah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.js -o public/bundle.js & serve public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "thuglife-webgl": "1.0.3",
+    "gl-matrix": "^2.3.1",
+    "watchify": "^3.2.3"
+  }
+}
